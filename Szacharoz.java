@@ -18,7 +18,10 @@ class Szacharoz {
         System.out.println("Szacharóz");
 
         System.out.print("Széntartalom > ");
+        int coal = sc.nextInt();
         System.out.print("Hidrogéntartalom > ");
+        int hydrogen = sc.nextInt();
         System.out.print("Oxigéntartalom > ");
+        int oxygen = sc.nextInt();
     }
 } 
