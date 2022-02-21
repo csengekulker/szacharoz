@@ -14,7 +14,7 @@ class Szacharoz {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Balogh Csenge\nSzoft_I_N\n2022.02.21");
+        System.out.println("\tBalogh Csenge\n\tSzoft_I_N\n\t2022.02.21");
         System.out.println("Szacharóz");
 
         System.out.print("Széntartalom > ");
@@ -29,9 +29,11 @@ class Szacharoz {
             hydrogen % 22 == 0 &&
             oxygen % 11 == 0
         ) {
-            System.out.println("Lehet szacharóz");
+            System.out.println("");
+            System.out.println("\tLehet szacharóz");
         } else  {
-            System.out.println("Nem lehet szacharóz");
+            System.out.println("");
+            System.out.println("\tNem lehet szacharóz");
         }
     }
 } 
