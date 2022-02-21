@@ -24,6 +24,8 @@ class Szacharoz {
         System.out.print("Oxigéntartalom > ");
         int oxygen = sc.nextInt();
 
+        sc.close();
+
         if (
             coal % 12 == 0 &&
             hydrogen % 22 == 0 &&
