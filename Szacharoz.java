@@ -23,5 +23,15 @@ class Szacharoz {
         int hydrogen = sc.nextInt();
         System.out.print("Oxigéntartalom > ");
         int oxygen = sc.nextInt();
+
+        if (
+            coal % 12 == 0 &&
+            hydrogen % 22 == 0 &&
+            oxygen % 11 == 0
+        ) {
+            System.out.println("Lehet szacharóz");
+        } else  {
+            System.out.println("Nem lehet szacharóz");
+        }
     }
 } 
